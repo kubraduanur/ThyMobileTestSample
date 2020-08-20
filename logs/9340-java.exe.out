@@ -1,0 +1,31 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2582milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2582"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58618"}
+{"logLevel":"info","message":"Listening on port:58618"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Test.TicketInformation2Test.Informationtest' and 'Test.TicketInformation2Test.Informationtest'"}
+{"logLevel":"debug","message":"Found Information2 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.TicketInformation1Test.Informationtest' and 'Test.TicketInformation1Test.Informationtest'"}
+{"logLevel":"debug","message":"Found Information1 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.TicketSelectionTest.EconomicFlyChoose' and 'Test.TicketSelectionTest.EconomicFlyChoose'"}
+{"logLevel":"debug","message":"Found Select economic flight in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.HomeTest.Home1' and 'Test.HomeTest.Home1'"}
+{"logLevel":"debug","message":"Found Start in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.HesCodePassportTest.PassworAndHescodeTest' and 'Test.HesCodePassportTest.PassworAndHescodeTest'"}
+{"logLevel":"debug","message":"Found Passport and HesCode in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.TicketTest.TicketChapter' and 'Test.TicketTest.TicketChapter'"}
+{"logLevel":"debug","message":"Found Select for ticket transactions going: {} coming: {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tStart : public void Home1() throws InterruptedException, IOException"}
+{"logLevel":"debug","message":"\tInformation2 : public void Informationtest() throws IOException, InterruptedException"}
+{"logLevel":"debug","message":"\tInformation1 : public void Informationtest() throws IOException, InterruptedException"}
+{"logLevel":"debug","message":"\tPassport and HesCode : public void PassworAndHescodeTest() throws IOException"}
+{"logLevel":"debug","message":"\tSelect for ticket transactions going: {} coming: {} : public void TicketChapter(String gidis, String varis) throws IOException"}
+{"logLevel":"debug","message":"\tSelect economic flight : public void EconomicFlyChoose()"}
